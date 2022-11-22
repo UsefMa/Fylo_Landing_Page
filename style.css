@@ -1,0 +1,309 @@
+body {
+    background-color: #171f2b;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  .nav_container {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #b5b5b5;
+  }
+  .logo {
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+  }
+  .nav {
+    display: flex;
+    list-style: none;
+  }
+  .nav li {
+    margin: 1rem;
+    cursor: pointer;
+  }
+  .nav li:hover{
+    color: #fff;
+  }
+  .illustration_intro {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .intro {
+    color: white;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .intro_text {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.5;
+  }
+  .intro_p {
+    padding: 1rem;
+    font-family: "Open Sans", sans-serif;
+    color: #dad8d8;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .intro_btn {
+    background: linear-gradient(to right, #65e2d9, #339ecc);
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    width: 15rem;
+    height: 3rem;
+    margin: 6px;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+  }
+  .intro_btn:hover {
+    background: #339ecc;
+  }
+  
+  .Features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 2fr));
+    gap: 5rem;
+    margin: 10rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+  }
+  .Features_text {
+    color: #b5b5b5;
+    font-family: "Open Sans", sans-serif;
+  }
+  .demo_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 7rem;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .demo_text {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.5;
+  }
+  
+  .demo_p {
+    font-family: "Open Sans", sans-serif;
+    color: #dad8d8;
+    max-width: 500px;
+    font-size: 15px;
+  }
+  .illustration-stay-productive {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  .team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 5rem;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+    font-weight: 200;
+    margin-bottom: 280px;
+  }
+  .team_card {
+    background-color: hsl(219, 30%, 18%);
+    padding: 18px;
+    border-radius: 5px;
+    font-size: 0.75em;
+    z-index: 2;
+    max-width: 350px;
+    font-family: "Open Sans", sans-serif;
+    color: #b5b5b5;
+    margin: 0 auto;
+  }
+  .team_img {
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+  }
+  .team_name {
+    margin-top: 35px;
+    color: white;
+    font-size: 11px;
+  }
+  .team_job {
+    margin-left: 40px;
+    margin-top: -12px;
+    font-weight: 200;
+  }
+  .mail_container {
+    position: relative;
+  }
+  .mail {
+    color: white;
+    padding: 1.8rem 1.2rem;
+    background-color: #1c2431;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 440px;
+    border-radius: 1rem;
+  }
+  .mail_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+  .mail_text {
+    font-family: "Open Sans", sans-serif;
+    color: #b5b5b5;
+    font-size: 14px;
+    line-height: 1rem;
+  }
+  .mail_input {
+    width: 60%;
+    height: 1rem;
+    font-family: "Open Sans", sans-serif;
+    color: #b5b5b5;
+    margin: 1rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+  }
+  .mail_btn {
+    background: linear-gradient(to right, #65e2d9, #339ecc);
+    color: white;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+    padding: 1rem;
+    height: 3rem;
+    font-weight: 700;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+  }
+  .mail_btn:hover {
+    background: #2695c5;
+  }
+  @media screen and (max-width: 490px) {
+    .mail {
+      min-width: 300px;
+    }
+  }
+  
+  footer {
+    color: white;
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 230px;
+    
+  }
+  .footer_info {
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 2rem;
+    padding-left: 1rem;
+    font-family: "Open Sans", sans-serif;
+    color: #b5b5b5;
+    font-size: 14px;
+    line-height: 1rem;
+  }
+  
+  .footer_logo {
+    width: 150px;
+    margin: 3rem;
+  }
+  
+  .company_info {
+    max-width: 200px;
+    display: inline-grid;
+    grid-template-columns: 150px 150px;
+  }
+  .footer_mail{
+    margin: 2rem;
+  }
+  .company_info li{
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+  
+  }
+  
+  .map_description {
+    max-width: 300px;
+    font-size: 1em;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  .company_media {
+    color: white;
+  }
+  
+  .media_icon{
+    border-radius: 50%;
+    border:  solid white;
+    border-width: 1px;
+    padding: 1rem;
+    cursor: pointer;
+    margin: 7px;
+  }
+  .media_icon:hover{
+    border: solid #2695c5 ;
+    color: #2695c5;
+    transition: 0.2s;
+    cursor: pointer;
+    border-width: 1px;
+  
+  }
+  .me{
+    color: rgb(133, 128, 128);
+    background-color: hsl(216, 53%, 9%);
+    margin-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  .github{
+    padding: 3px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(133, 128, 128);
+  }
+  @media screen and (max-width: 729px) {
+  
+    .company_media {
+      margin: 0 auto;
+    }
+  }
+  @media screen and (max-width: 339px) {
+    .logo{
+      width: 70px;
+    }
+    .mail {
+      min-width: 250px;
+    }
+  }
